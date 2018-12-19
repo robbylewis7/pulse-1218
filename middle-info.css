@@ -1,0 +1,50 @@
+#middleInfo{
+    height: 800px;
+    background-color: #4a4a4a;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#article{
+    width: 300px;
+    height: 300px;
+}
+
+#descrition{
+    color: white;
+    font-size: 18px;
+    line-height: 2em;
+    text-align: center;
+    font-family: Oakes;
+}
+
+#middleContent{
+    margin-left: 0;
+    max-width: 650px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#getStarted{
+    border: 3px solid white;
+    background: none;
+    padding: 5px;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 50px;
+    width: 300px;
+    height: 80px;
+}
+
+#getStarted:hover{
+    background-color: white;
+    color: #4a4a4a;
+    cursor: pointer;
+}

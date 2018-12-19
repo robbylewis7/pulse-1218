@@ -1,0 +1,138 @@
+@font-face{
+    font-family: Oakes;
+    src: url(Oakes-Grotesk-Medium.otf);
+}
+
+li, a, h1{
+    font-family: Oakes;
+}
+
+#title{
+    color: #4a4a4a;
+    align-self: flex-end;
+}
+
+.lists {
+    display: block;
+}
+
+#mainContent{
+    display: inline-flex;
+}
+
+#logo{
+    width: 150px;
+    height: 150px;
+}
+
+#header{
+    display: block;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+
+.articles{
+    margin-top: 110px;
+    margin-left: 60px;
+}
+
+
+.teams{
+    color: #4a4a4a;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 140px;
+    border-radius: 10px;
+    width: 65%;
+    border: 1px solid #4a4a4a;
+    margin-right: 250px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.deleteIcon{
+    height: 30px;
+    width: 30px;
+    float: right;
+    display: none;
+    
+}
+
+
+#cancel{
+    margin-bottom: 20px;
+}
+
+#header{
+    margin-top: 50px;
+    margin-left: 140px;
+    padding-bottom: 40px;
+}
+
+.add-button{
+    margin-left: 140px;
+}
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+
+    #mainContent{
+        display: inline-block;
+        text-align: center;
+    }
+
+    .teams{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        border-radius: 10px;
+        width: 100%;
+        border: 1px solid #4a4a4a;
+        margin-right: 250px;
+        align-items: center;
+        align-self: center;
+        justify-content: space-between;
+    }
+
+    .articleImg{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        object-fit: cover;
+        transition: opacity .25s ease-in-out;
+    
+    }
+
+    .content{
+        width: 300px;
+        height: 300px;
+        /* display: flex; */
+        justify-content: center;
+        margin-bottom: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .add-button{
+        margin-left: 0px;
+        display: flex;
+        align-self: flex-start;
+        margin-left: 140px;
+        margin-bottom: 20px;
+    }
+
+    #leagues{
+        display: block;
+        text-align: left;
+        padding: 50px;
+    }
+
+  }

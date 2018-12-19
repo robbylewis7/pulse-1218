@@ -1,0 +1,15 @@
+#signup{
+    background-color: #4a4a4a;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+
+label {
+
+    clear: both;
+    float:left;
+    margin-right:15px;
+}
+

@@ -1,0 +1,41 @@
+
+#middleDisplay{
+    margin-bottom: 150px;
+
+}
+
+#middleDescription{
+    text-align: center;
+    margin-top: 150px;
+    font-family: Oakes;
+    font-size: 24px;
+    color: #4a4a4a;
+}
+
+.teamEx{
+    color: #4a4a4a;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 100%;
+    border: 1px solid #4a4a4a;
+    margin-right: 250px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#feedIcon{
+    width: 450px;
+    height: 450px;
+    border: 2px solid #4a4a4a;
+    border-radius: 50%;
+}
+
+#exampleFeed{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+

@@ -1,0 +1,85 @@
+a{
+    text-decoration: none;
+    color: #4a4a4a;
+    font-size: 18px;
+}
+
+h2{
+    text-align: center;
+}
+
+.teamLogo{
+    height: 25px;
+    width: 25px;
+    margin-right: 25px;
+}
+
+#cancel{
+    background: none;
+    border: none;
+    float: left;
+}
+
+#cancel:hover{
+    cursor: pointer;
+}
+
+#addTeam{
+    background: #70AE6E;
+    border-radius: 560%;
+    border: none;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+#addTeam:hover{
+    cursor: pointer;
+    background: #4a4a4a;
+}
+
+
+
+#addTeam img{
+    width: 25px;
+    height: 25px;
+}
+
+#cancelImg{
+    width: 40px;
+    height: 40px;
+}
+
+#leagues{
+    display: flex;
+    justify-content: space-between;
+    clear: both;
+    width: 100%;
+    border: 1px solid rgba(74, 74, 74, .5);
+    padding: 50px;
+}
+
+/* .league{
+    margin: 0 10px;
+} */
+
+.submitButton{
+    text-align: center;
+    margin: 20px;
+}
+
+
+
+.saveButton{
+    width: 30%;
+    background: white;
+    color: #4a4a4a;
+    background: none;
+    padding: 10px;
+    border: 1px solid rgba(74, 74, 74, .5);
+}
+
+.saveButton:hover{
+    color: white;
+    background: #70AE6E;
+    cursor: pointer;
+}
